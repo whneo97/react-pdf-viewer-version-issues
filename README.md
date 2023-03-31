@@ -9,7 +9,7 @@ This simplified project is used for replicating the effects of different [pdfjs-
 ## Quickstart
 
 1. Run `npm install`
-2. Set the environment variable `REACT_APP_PDFJS_DIST_VERSION` to the version of `pdfjs-dist` to be tested.
+2. Set the environment variable [`REACT_APP_PDFJS_DIST_VERSION`](https://github.com/whneo97/react-pdf-viewer-version-issues/blob/9fa4e041db4e8c2fc576ea797e7f60b0910c2293/.env#L2) to the version of `pdfjs-dist` to be tested.
 3. Run `npm run start` to compile and run the project in development mode.
 4. Run `npm run build` to compile and run the project in production mode.
 

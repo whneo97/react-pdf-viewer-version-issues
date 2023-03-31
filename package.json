@@ -1,0 +1,54 @@
+{
+  "name": "pdf-test",
+  "version": "0.1.0",
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.11.0",
+    "@react-pdf-viewer/default-layout": "^3.11.0",
+    "pdfjs-dist-2.10.377": "npm:pdfjs-dist@2.10.377",
+    "pdfjs-dist-2.11.338": "npm:pdfjs-dist@2.11.338",
+    "pdfjs-dist-2.12.313": "npm:pdfjs-dist@2.12.313",
+    "pdfjs-dist-2.13.216": "npm:pdfjs-dist@2.13.216",
+    "pdfjs-dist-2.14.305": "npm:pdfjs-dist@2.14.305",
+    "pdfjs-dist-2.15.349": "npm:pdfjs-dist@2.15.349",
+    "pdfjs-dist-2.16.105": "npm:pdfjs-dist@2.16.105",
+    "pdfjs-dist-2.6.347": "npm:pdfjs-dist@2.6.347",
+    "pdfjs-dist-2.7.570": "npm:pdfjs-dist@2.7.570",
+    "pdfjs-dist-2.8.335": "npm:pdfjs-dist@2.8.335",
+    "pdfjs-dist-2.9.359": "npm:pdfjs-dist@2.9.359",
+    "pdfjs-dist-3.0.279": "npm:pdfjs-dist@3.0.279",
+    "pdfjs-dist-3.1.81": "npm:pdfjs-dist@3.1.81",
+    "pdfjs-dist-3.2.146": "npm:pdfjs-dist@3.2.146",
+    "pdfjs-dist-3.3.122": "npm:pdfjs-dist@3.3.122",
+    "pdfjs-dist-3.4.120": "npm:pdfjs-dist@3.4.120",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.2.0",
+    "@types/node": "^12.12.54",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "craco-less": "^1.18.0",
+    "http-server": "^14.0.0",
+    "react-scripts": "^4.0.1",
+    "typescript": "4.1.6"
+  },
+  "scripts": {
+    "tsc": "tsc --build --force",
+    "serve": "node ./node_modules/http-server/bin/http-server build",
+    "start": "npm run tsc && craco start",
+    "build": "npm run tsc && craco build && serve -s build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
